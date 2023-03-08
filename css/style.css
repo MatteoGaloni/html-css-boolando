@@ -45,7 +45,13 @@ a{
     height: 500px;
 }
 
-.wrapped{
-    flex-wrap: wrap;
-    height: 400px;
+.photoContent{
+    width: 33.33%;
 }
+
+.wrapped{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+

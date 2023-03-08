@@ -1,3 +1,40 @@
-body{
-    background-color: black;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+/* **************header**************** */
+
+.navBar{
+    padding: 2em;
+}
+
+.bgOrange{
+    background-color: orangered;
+    min-height: 100px;
+    color: white;
+}
+
+.boxed {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+img{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+

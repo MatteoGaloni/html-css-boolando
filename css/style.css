@@ -12,13 +12,14 @@
 
 .bgOrange{
     background-color: orangered;
-    min-height: 100px;
+    height: 80px;
     color: white;
 }
 
 .boxed {
     max-width: 1300px;
     margin: auto;
+    background-color: darkgrey;
 }
 
 .flex{
@@ -32,9 +33,19 @@ a{
 
 }
 
-img{
+/* img{
     display: block;
     height: 30px;
     width: 30px;
+} */
+
+/* *******main****** */
+
+.minHeight{
+    height: 500px;
 }
 
+.wrapped{
+    flex-wrap: wrap;
+    height: 400px;
+}

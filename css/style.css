@@ -56,7 +56,9 @@ a{
 
 .flexWrap{
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+    margin-top: 160px;
+    margin-bottom: 100px    
 }
 
 .cardImg{
@@ -95,19 +97,65 @@ img{
 
 }
 
+.heart:hover{
+    color: red;
+}
+
 /* *********footer******** */
 
 footer{
- background-color: grey;   
+ background-color: rgba(0, 0, 0, 0.774);   
+}
+
+.linkBottom{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
 }
 
 h2{
     color: white;
+    margin-bottom: 10px;    
 }
 
 .socialIcon{
     color: white;
 }
+
+/* .imgA{
+    display: block;
+
+}
+
+.imgA:hover{
+    display: none;
+
+}
+
+.imgB{
+    
+}
+
+.imgB:hover{
+    display: block;
+
+} */
+
+/* .imgA{   
+    position: absolute;
+    z-index: 1;    
+}
+
+.imgB{   
+    position: absolute;
+    z-index: 2;    
+}
+
+.imgB:hover{   
+    position: absolute;
+    z-index: 2;
+    display: none;
+} */
 
 
 

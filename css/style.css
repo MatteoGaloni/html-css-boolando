@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-img{
-    height: 100%;
-    display: block;
-}
 /* **************header**************** */
 
 .navBar{
@@ -35,7 +31,6 @@ img{
     justify-content: space-between;
 }
 
-
 a{
     text-decoration: none;
     color: white;
@@ -54,10 +49,21 @@ a{
 /* *****main******* */
 
 .card{
-    width: 33,33%;
+    width: 33.33%;
 }
 
+.flexWrap{
+    display: flex;
+    flex-wrap: wrap;    
+}
 
+.cardImg{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
 
 
 

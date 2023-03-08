@@ -95,5 +95,20 @@ img{
 
 }
 
+/* *********footer******** */
+
+footer{
+ background-color: grey;   
+}
+
+h2{
+    color: white;
+}
+
+.socialIcon{
+    color: white;
+}
+
+
 
 

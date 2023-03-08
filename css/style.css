@@ -4,15 +4,23 @@
     box-sizing: border-box;
 }
 
-
+img{
+    height: 100%;
+    display: block;
+}
 /* **************header**************** */
 
 .navBar{
     padding: 2em;
+    width: 100vw;
+    position: fixed;
 }
 
 .bgOrange{
-    background-color: orangered;
+    background-color: orangered;    
+}
+
+.heightHeader{
     height: 80px;
     color: white;
 }
@@ -20,7 +28,6 @@
 .boxed {
     max-width: 1300px;
     margin: auto;
-    background-color: darkgrey;
 }
 
 .flex{
@@ -35,21 +42,22 @@ a{
 
 }
 
-/* img{
+#imgBoolean{
+    height: 30%;
     display: block;
-    height: 30px;
-    width: 30px;
-} */
+}
 
-/* *******main****** */
+.boxLogo{
+    height: 80px;
+}
+
+/* *****main******* */
 
 .card{
     width: 33,33%;
 }
 
-img{
-    width: 100%;
-    display: block
-}
+
+
 
 

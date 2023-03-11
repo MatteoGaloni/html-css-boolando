@@ -38,7 +38,6 @@ a{
     text-decoration: none;
     color: white;
     padding-right: 10px;
-
 }
 
 #imgBoolean{
@@ -55,6 +54,7 @@ a{
 .card{
     width: 33.33%;
     padding: 1em;
+    transition: all 0.3s ease 0s;
 }
 
 .flexWrap{
@@ -80,6 +80,23 @@ img{
     color: white;
 }
 
+.imgA{
+    display: block;
+}
+
+.imgB{
+    display: none;
+}
+
+.card:hover .imgA{
+    display: none;
+
+}
+
+.card:hover .imgB{
+    display: block;
+}
+
 .sconto{
     background-color: red;
     padding: 5px 10px;
@@ -97,11 +114,11 @@ img{
     background-color: white;
     padding: 5px 10px; 
     font-size: 30px;
-
 }
 
 .heart:hover{
     color: red;
+    scale: 1.5;
 }
 
 .redPrice{
@@ -138,42 +155,3 @@ h4{
     color: white;
     font-size: 20px;
 }
-
-/* .imgA{
-    display: block;
-
-}
-
-.imgA:hover{
-    display: none;
-
-}
-
-.imgB{
-    
-}
-
-.imgB:hover{
-    display: block;
-
-} */
-
-/* .imgA{   
-    position: absolute;
-    z-index: 1;    
-}
-
-.imgB{   
-    position: absolute;
-    z-index: 2;    
-}
-
-.imgB:hover{   
-    position: absolute;
-    z-index: 2;
-    display: none;
-} */
-
-
-
-
